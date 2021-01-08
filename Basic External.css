@@ -1,0 +1,158 @@
+h1{
+    
+    font-size: 50px;                                /* comment*/ 
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+    background-color:skyblue;
+    text-decoration-color: greenyellow;
+}
+h1,h2{
+    color:greenyellow;
+}
+    h2{
+   /* color: chartreuse;*/
+    caret-color: sandybrown;
+    font-style: oblique;
+    text-decoration-color: springgreen;
+    text-align-last: auto;
+    text-size-adjust: 78;
+}
+h3{
+    color: deeppink;
+    font-style: italic;
+    text-decoration: gold;
+}
+.a{
+    color:honeydew;
+    text-decoration: underline;
+    font-size: 20px;
+    font-style:oblique;
+    font-size:50px;
+}
+
+ /*body{
+   /* background-color:darkcyan;
+    background-image: url("C:\Users\Admin\Desktop\images (1).jpg") ;
+    background-repeat:no-repeat;*/
+   
+     body  
+    {  
+    background-image:url("https://1.bp.blogspot.com/-sTxAHAxirGM/WVbAe2098nI/AAAAAAABENs/_I5sYMYgLOUzaIE7FfF4qdGX-hoAkq9SgCLcBGAs/s1600/Blog_20170624_113552.jpg");  
+     background-size: 2000px 700px, cover;
+     background-repeat: no-repeat;  
+     background-attachment: fixed;  
+     background-position: center;
+     background-size: 100% 70%;  
+    }   
+
+    #banner{
+    color:tomato;  
+    text-decoration: underline;
+    font-size: 20px;
+    font-style:oblique;
+    font-size:50px;
+    }
+   .new{
+       color: cyan;
+       font-size: 50px;
+       padding: 30px 20px 10px 40px;   /*(top, right ,bottom, left)*/
+       padding-right: 20px;
+       border: 2px solid red;
+       margin: 50px 20px 20px 30px;
+   }
+
+   .box1{
+       border: 2px solid rebeccapurple;
+        margin:20px;
+       /* padding: 20px; */
+       width: 100px;
+       height: 100px;
+   }
+
+   .box2{
+       border:2px solid red;
+       margin: 20px;
+       width: 50px;
+       height: 50px;
+       background-color: pink;
+       display: inline-block;
+     
+   }
+
+   .new:hover{
+       color:red;
+   }
+   .box3{
+    border:2px solid palevioletred;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    display: inline-block;
+
+   }
+   .box3:hover{
+background-color:powderblue;
+   }
+
+   .box4{
+    border:2px solid palevioletred;
+    background-color: yellowgreen;
+    /* margin-left: -8px 180px 0px 150px; */
+    margin: -200px 500px 500px 150px;
+    padding: 50px;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+   }
+
+   .hyper:link{
+    background-color:chartreuse;
+   }
+   .insta:visited{
+       background-color: blue;
+   }
+   .insta{
+       text-decoration: none;
+   }
+
+table,tr,th{
+    border:2px solid blueviolet;
+}
+
+tr:nth-child(even){
+    background-color: coral;
+}
+tr:nth-child(odd){
+    background-color:darkgreen;
+}
+tr:nth-child(even):hover{
+    background-color:darkorchid;
+}
+.comb{
+    color: darkturquoise;
+}
+div p{
+    color: fuchsia;
+}
+div>p{
+    color: greenyellow;
+}
+div+p{
+    color: indigo;
+}
+div~p{
+    color: mediumspringgreen;
+}
+
+.pos{
+    position: static;
+    border: 2px solid red;
+}
+
+.one{
+    position: relative;
+    top:20px;
+    bottom: 20px;
+}
